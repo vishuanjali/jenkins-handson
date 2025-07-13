@@ -3,12 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "anjali",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishuanjali/jenkins-handson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vishuanjali/jenkins-handson/issues"
+  },
+  "homepage": "https://github.com/vishuanjali/jenkins-handson#readme",
+  "description": ""
 }
