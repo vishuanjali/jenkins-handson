@@ -4,7 +4,7 @@ pipeline {
     stage('Clone Repo') {
       steps {
         echo 'Cloning repo...'
-        git 'https://github.com/YOUR_USERNAME/jenkins-node-app.git'
+        git 'https://github.com/vishuanjali/jenkins-handson.git'
       }
     }
 
